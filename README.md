@@ -8,7 +8,7 @@
 
 ## What Are Lists?
 
-Lists are just a fancy term for `array`, most programming languages use the term `list` to describe a data structure that can hold multiple values that can all have different data types. List's are iterable and can be modified.
+Lists are just a fancy term for `array`, most programming languages use the term `list` to describe a data structure that can hold multiple values that can all have different data types. List's are iterable and can be modified. Feel free to practice in the `main.py` file as we go along.
 
 Here's an example of a list/array:
 
@@ -30,6 +30,44 @@ In `main.py` perform the following:
 
 - Create a `list` and store it in a `nums` variable that contains all numbers from 1-5.
 - Create a `list` and store it in a `chars` variable that contains all letters a-e.
+
+## Accessing Items In A List
+
+Accessing elements in an array/list can be as simple as selecting something at a given index, for example:
+
+`Javascript`
+
+```js
+let myArr = [1, 2, 3]
+myArr[0] // Returns 1
+```
+
+`Python`
+
+```python
+my_list = [1,2,3]
+my_list[0] # Returns 1
+```
+
+Remember lists start at a `0` index.
+
+## Accessing Multiple Items
+
+Python has some great list accessing abilities, for example if we wanted to access all elements from the 0th index to the 3rd index.
+
+We can select items in a range of numbers, the first number being the start and the second being the end:
+
+```python
+my_list = [1,2,3,4]
+print(my_list[0:3]) # Prints 1,2,3
+```
+
+What if we wanted to select an element starting from the end of the list? Well there's a way for that too!
+
+```python
+my_list = [1,2,3,4]
+print(my_list[-2]) # Returns 3
+```
 
 ## Manipulating Lists
 
@@ -72,3 +110,66 @@ We can also manipulate lists in python such as adding items or joining lists. Le
       > my_list = [1,2,3]
       > my_list.append(4)
       > ```
+
+## Loops
+
+Let's iterate through some elements. Believe it or not, loops in the python start with the `for` keyword as well!
+
+`Javascript`
+
+```js
+for (let i = 0; i < 5; i++) {
+  console.log(i)
+}
+```
+
+`Python`
+
+```py
+for el in my_list:
+  print(el)
+```
+
+As you can see, the syntax is much shorter in python. `my_list` is the item we are iterating through and `el` is each element in the list.
+
+What if we wanted to just iterate from one number to another?
+
+```py
+for num in range(0,10):
+  print(num)
+```
+
+The `range` method generates a list of numbers from 0 - 9. Remember `lists` start at the 0th index.
+
+### List Comprehension
+
+Python has an operation called `list comprehension`. Think of it as an inline for loop. Example:
+
+```py
+num_list = [(x) for x in range(0,8)]
+```
+
+Creates a list with numbers from 0 to 7. The above example translates to:
+
+```py
+num_list = []
+
+for x in range(0,8):
+  num_list.append(x)
+```
+
+We can also perform transformations using list comprehension:
+
+```py
+nums = [2,4,6,8]
+
+multiples = [x*2 for x in nums]
+
+print(multiples) # returns [4, 8, 12, 16]
+```
+
+We iterate through each element in nums and multiply it by 2, `x` is a temporary variable to represent an element in a list.
+
+## You Do
+
+You'll be working in `main.py`. Follow the instructions and test your work by running `list_test.py`.
