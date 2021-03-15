@@ -151,6 +151,8 @@ Here is a list methods that you may find useful when working with lists in Pytho
 ___
 ## Loops
 
+![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.giphy.com%2Fmedia%2FJNKKeUprOnjqw%2Fgiphy.gif&f=1&nofb=1)
+
 Let's iterate through some elements. Believe it or not, loops in the python start with the `for` keyword as well!
 
 `Javascript`
@@ -226,3 +228,4 @@ In this lesson, we learned about how `lists`, Python's version of arrays, can be
 - [Python List Methods (In Detail)](https://www.programiz.com/python-programming/methods/list)
 - [Python Lists](https://www.tutorialspoint.com/python/python_lists.htm)
 - [Python List Comprehension](https://www.programiz.com/python-programming/list-comprehension)
+- [Python While Loops](https://www.tutorialspoint.com/python/python_while_loop.htm)
