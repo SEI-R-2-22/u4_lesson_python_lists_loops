@@ -1,11 +1,20 @@
 # Python Lists, Loops And List Comprehension
 
+![](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/python.gif)
+
+## Overview
+You may have been wondering how Python handles large amounts of data, sort of how JavaScript does a similar thing with arrays. In this lesson, we'll learn about how Python does just that with `lists`, `loops`, and a special bit of magic called `list comprehension`.
+
 ## Objectives
 
 - Learn how to build and manipulate python lists
 - Learn how to loop through lists
 - Learn List Comprehension
 
+## Getting Started
+- `Fork` and `clone` this repository.
+
+___
 ## What Are Lists?
 
 Lists are just a fancy term for `array`, most programming languages use the term `list` to describe a data structure that can hold multiple values that can all have different data types. List's are iterable and can be modified. Feel free to practice in the `main.py` file as we go along.
@@ -31,6 +40,7 @@ In `main.py` perform the following:
 - Create a `list` and store it in a `nums` variable that contains all numbers from 1-5.
 - Create a `list` and store it in a `chars` variable that contains all letters a-e.
 
+___
 ## Accessing Items In A List
 
 Accessing elements in an array/list can be as simple as selecting something at a given index, for example:
@@ -170,6 +180,7 @@ print(multiples) # returns [4, 8, 12, 16]
 
 We iterate through each element in nums and multiply it by 2, `x` is a temporary variable to represent an element in a list.
 
+___
 ## You Do
 
 You'll be working in `main.py`. Follow the instructions and test your work by running `list_test.py`.
