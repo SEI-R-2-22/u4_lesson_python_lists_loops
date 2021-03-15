@@ -72,55 +72,82 @@ my_list = [1,2,3,4]
 print(my_list[0:3]) # Prints 1,2,3
 ```
 
+Python allows several options with list slicing that may be more useful depending on the situation.
+
+  
+```python
+
+print(my_list[:4]) # prints elements before index 4
+
+print(my_list[3:]) # prints all elements after index 3
+```
+
+
 What if we wanted to select an element starting from the end of the list? Well there's a way for that too!
 
 ```python
 my_list = [1,2,3,4]
-print(my_list[-2]) # Returns 3
+print(my_list[-2]) # prints 3
 ```
-
+___
 ## Manipulating Lists
 
 We can also manipulate lists in python such as adding items or joining lists. Let's see some examples:
 
-- If we wanted to join lists:
+If we wanted to join lists:
 
-  - In Javascript we can use the spread operator to join arrays:
+- In Javascript we can use the spread operator to join arrays:
 
-    - > ```js
-      > let numArr1 = [1, 2, 3]
-      > let numArr2 = [4, 5, 6]
-      > let allNums = [...numArr1, ...numArr2]
-      > ```
+  - > ```js
+    > let numArr1 = [1, 2, 3]
+    > let numArr2 = [4, 5, 6]
+    > let allNums = [...numArr1, ...numArr2]
+    > ```
 
-  - Or the concat method:
-    - > ```js
-      > let numArr1 = [1, 2, 3]
-      > let numArr2 = [4, 5, 6]
-      > let allNums = numArr1.concat(numArr2)
-      > ```
-  - In python we can use the `+` operator:
-    - > ```python
-      > num_list1 = [1,2,3,]
-      > num_list2 = [4,5,6]
-      > all_nums = num_list1 + num_list2
-      > ```
+- Or the concat method:
+  - > ```js
+    > let numArr1 = [1, 2, 3]
+    > let numArr2 = [4, 5, 6]
+    > let allNums = numArr1.concat(numArr2)
+    > ```
+- In python we can use the `+` operator:
+  - > ```python
+    > num_list1 = [1,2,3,]
+    > num_list2 = [4,5,6]
+    > all_nums = num_list1 + num_list2
+    > ```
 
-- What if wanted to add to the end of a list ?
+What if wanted to add to the end of a list ?
 
-  - Javascript has a `push` method:
+- Javascript has a `push` method:
 
-    - > ```js
-      > let arr = [1, 2, 3]
-      > arr.push(4)
-      > ```
+  - > ```js
+    > let arr = [1, 2, 3]
+    > arr.push(4)
+    > ```
 
-  - Python has an `append` method:
-    - > ```py
-      > my_list = [1,2,3]
-      > my_list.append(4)
-      > ```
+- Python has an `append` method:
+  - > ```py
+    > my_list = [1,2,3]
+    > my_list.append(4)
+    > ```
+   
+Here is a list methods that you may find useful when working with lists in Python:
 
+| Method | Description |
+| --- | --- |
+| .append( _element_ ) | Add a single element to the end of the list |
+| .pop( _index_ ) | Removes element at the given index. If no index is specified, pop() removes and returns the last item in the list. |
+| .index( _element_ ) | returns the index of the element in the list |
+| .insert(_index_,_element_) | insert an element to the list at a specified index |
+| .remove( _element_ ) | Removes the first item from the list equal to the input value |
+| .count( _element_ ) | returns count of the element in the list |
+| .reverse() | reverses the list |
+| .sort() | sorts elements of a list |
+| .copy() | returns a shallow copy of the list |
+
+
+___
 ## Loops
 
 Let's iterate through some elements. Believe it or not, loops in the python start with the `for` keyword as well!
