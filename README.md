@@ -145,6 +145,7 @@ Here is a list methods that you may find useful when working with lists in Pytho
 | .reverse() | reverses the list |
 | .sort() | sorts elements of a list |
 | .copy() | returns a shallow copy of the list |
+| len(_list_) | returns the total length of the list |
 
 
 ___
@@ -211,3 +212,16 @@ ___
 ## You Do
 
 You'll be working in `main.py`. Follow the instructions and test your work by running `list_test.py`.
+
+## Recap
+In this lesson, we learned about how `lists`, Python's version of arrays, can be accessed, manipulated, and iterated over. A few key concepts to note:
+- Python lists can be sliced into sub-lists with list slicing syntax: `my_list[2:]`, `my_list[3:6]`, `my_list[:4]`
+- Rather than `push`, Python uses `append` to add items to the end of a list
+- Python for loops typically work with one of three ways:
+  - For in Loops: `for item in my_list`
+  - For in Range Loops: `for item in range(0, len(my_list):`
+  - List Comprehension: `[item*2 for item in my_list]`
+
+## Resources
+- [Python List Methods (In Detail)](https://www.programiz.com/python-programming/methods/list)
+- [Python Lists](https://www.tutorialspoint.com/python/python_lists.htm)
