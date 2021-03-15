@@ -92,6 +92,8 @@ print(my_list[-2]) # prints 3
 ___
 ## Manipulating Lists
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2Fc11fa8842fc320d242bb39f5525a990e%2Ftenor.gif%3Fitemid%3D7257765&f=1&nofb=1)
+
 We can also manipulate lists in python such as adding items or joining lists. Let's see some examples:
 
 If we wanted to join lists:
@@ -227,5 +229,6 @@ In this lesson, we learned about how `lists`, Python's version of arrays, can be
 ## Resources
 - [Python List Methods (In Detail)](https://www.programiz.com/python-programming/methods/list)
 - [Python Lists](https://www.tutorialspoint.com/python/python_lists.htm)
+- [Python For Loops](https://www.dataquest.io/blog/python-for-loop-tutorial/)
 - [Python List Comprehension](https://www.programiz.com/python-programming/list-comprehension)
 - [Python While Loops](https://www.tutorialspoint.com/python/python_while_loop.htm)
