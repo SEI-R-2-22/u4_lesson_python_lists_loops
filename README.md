@@ -219,7 +219,7 @@ In this lesson, we learned about how `lists`, Python's version of arrays, can be
 - Rather than `push`, Python uses `append` to add items to the end of a list
 - Python for loops typically work with one of three ways:
   - For in Loops: `for item in my_list`
-  - For in Range Loops: `for item in range(0, len(my_list):`
+  - For in Range Loops: `for index in range(0, len(my_list):`
   - List Comprehension: `[item*2 for item in my_list]`
 
 ## Resources
