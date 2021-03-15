@@ -225,3 +225,4 @@ In this lesson, we learned about how `lists`, Python's version of arrays, can be
 ## Resources
 - [Python List Methods (In Detail)](https://www.programiz.com/python-programming/methods/list)
 - [Python Lists](https://www.tutorialspoint.com/python/python_lists.htm)
+- [Python List Comprehension](https://www.programiz.com/python-programming/list-comprehension)
