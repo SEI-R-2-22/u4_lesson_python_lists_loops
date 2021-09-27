@@ -1,4 +1,4 @@
-# Python Lists, Loops And List Comprehension
+# Python Lists, Loops, and List Comprehension
 
 ![](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/python.gif)
 
